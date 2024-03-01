@@ -1,0 +1,19 @@
+.header-section {
+  padding: 100px 0;
+  background: url('background.jpg') no-repeat center center;
+  background-size: cover;
+  color: rgb(128, 4, 4);
+}
+
+.navbar {
+  background-color: rgba(198, 7, 246, 0.8);
+}
+
+/* Ensures that the navbar text is not transparent */
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(15, 7, 247, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(4, 252, 78, 0.9);
+}
